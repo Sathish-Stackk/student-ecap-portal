@@ -1,0 +1,133 @@
+.details-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.details-content {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.college-header {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.college-header h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.college-header p {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.tab:hover {
+  background: #667eea;
+  color: white;
+}
+
+.tab.active {
+  background: #667eea;
+  color: white;
+}
+
+.tab-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.overview p,
+.placements p,
+.placements ul {
+  color: #666;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.placements ul {
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
+.placements ul li {
+  margin: 0.5rem 0;
+}
+
+.dept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.dept-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dept-card h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.dept-card p {
+  color: #666;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.hostel-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.hostel-info h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.facilities h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.facilities ul {
+  list-style-position: inside;
+  color: #666;
+}
+
+.facilities ul li {
+  margin: 0.5rem 0;
+}
